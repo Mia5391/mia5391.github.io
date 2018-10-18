@@ -1,0 +1,219 @@
+.HOME {
+  width: 1440px;
+  height: 3561px;
+  background-color: #ffffff;
+}
+.cover-background {
+  width: 1440px;
+  height: 680px;
+  object-fit: contain;
+}
+.Global-Perspective-f {
+  width: 494px;
+  height: 130px;
+  font-family: PlayfairDisplay;
+  font-size: 44px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.Ma-Krasteva {
+  width: 194px;
+  height: 43px;
+  font-family: PlayfairDisplay;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.About-me {
+  width: 89px;
+  height: 27px;
+  font-family: PlayfairDisplay;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.Projects {
+  width: 76px;
+  height: 27px;
+  font-family: PlayfairDisplay;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.Contact {
+  width: 73px;
+  height: 27px;
+  font-family: PlayfairDisplay;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.img-mia {
+  width: 753px;
+  height: 864px;
+  object-fit: contain;
+}
+.bg-photo-mia {
+  width: 555px;
+  height: 517px;
+}
+.Path-2 {
+  width: 170px;
+  height: 1px;
+  border: solid 2px #00b9d1;
+}
+.About-me {
+  width: 118px;
+  height: 34px;
+  font-family: OpenSans;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3a434d;
+}
+.Im-Ma-lorem-ipsum {
+  width: 570px;
+  height: 106px;
+  font-family: PlayfairDisplay;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3a434d;
+}
+.It-is-a-long-establi {
+  width: 570px;
+  height: 90px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #7e888b;
+}
+.Path-2 {
+  width: 170px;
+  height: 1px;
+  border: solid 2px #00b9d1;
+}
+.Portfolio {
+  width: 105px;
+  height: 34px;
+  font-family: OpenSans;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3a434d;
+}
+.Lorem-ipsum-sit-amet {
+  width: 570px;
+  height: 106px;
+  font-family: PlayfairDisplay;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3a434d;
+}
+.Bitmap {
+  width: 370px;
+  height: 371px;
+  object-fit: contain;
+}
+.Path-2 {
+  width: 170px;
+  height: 1px;
+  border: solid 2px #00b9d1;
+}
+.Contact {
+  width: 94px;
+  height: 34px;
+  font-family: OpenSans;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3a434d;
+}
+.Get-in-touch-Lorem {
+  width: 570px;
+  height: 106px;
+  font-family: PlayfairDisplay;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3a434d;
+}
+.Email-exampledomai {
+  width: 570px;
+  height: 80px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.22;
+  letter-spacing: normal;
+  color: #7e888b;
+}
+.LinkedIn {
+  width: 79px;
+  height: 24px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #006ba3;
+}
+.GitHub {
+  width: 64px;
+  height: 24px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #474747;
+}
