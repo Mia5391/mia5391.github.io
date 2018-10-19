@@ -16,6 +16,10 @@
   padding-right: 5px;
 }
 
+.header{
+  width: inherit;
+}
+
 .column {
   float:left;
   width: 50%;
@@ -35,26 +39,28 @@
     display: block;
     clear: both;
 }
-.Rectangle {
-  width: auto;
-  height: auto;
-  background-color: #faf9fe;
-}
+
 
 .Global-Perspective-f {
-  width: 494px;
-  height: 130px;
+  width: 40%;
+  height: auto;
   font-family: PlayfairDisplay;
-  font-size: 44px;
+  font-size: 32px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.48;
   letter-spacing: normal;
   color: #ffffff;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  text-shadow: 1px 1px #000000;
+  margin-top: 5%;
 }
+
 .Ma-Krasteva {
-  width: 194px;
+  width: auto;
   height: 43px;
   font-family: PlayfairDisplay;
   font-size: 32px;
@@ -64,8 +70,19 @@
   line-height: normal;
   letter-spacing: normal;
   color: #ffffff;
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  text-shadow: 1px 1px #000000;
+  margin-top: 2%;
 }
-.About-me {
+
+.Path-2 {
+  width: 170px;
+  height: 1px;
+  border: solid 2px #00b9d1;
+}
+.Section-title {
   width: 89px;
   height: 27px;
   font-family: PlayfairDisplay;
@@ -75,8 +92,26 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: #ffffff;
+  color: #3a434d;
 }
+.Section-text {
+  width: auto;
+  height: auto;
+  font-family: PlayfairDisplay;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3a434d;
+}
+.Rectangle {
+  width: auto;
+  height: auto;
+  background-color: #faf9fe;
+}
+
 .Projects {
   width: 76px;
   height: 27px;
@@ -111,35 +146,6 @@
   width: 555px;
   height: 517px;
 }
-.Path-2 {
-  width: 170px;
-  height: 1px;
-  border: solid 2px #00b9d1;
-}
-.About-me {
-  width: 118px;
-  height: 34px;
-  font-family: OpenSans;
-  font-size: 25px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #3a434d;
-}
-.Im-Ma-lorem-ipsum {
-  width: auto;
-  height: auto;
-  font-family: PlayfairDisplay;
-  font-size: 40px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #3a434d;
-}
 .It-is-a-long-establi {
   width: auto;
   height: auto;
@@ -152,44 +158,11 @@
   letter-spacing: normal;
   color: #7e888b;
 }
-.Path-2 {
-  width: 170px;
-  height: 1px;
-  border: solid 2px #00b9d1;
-}
-.Portfolio {
-  width: 105px;
-  height: 34px;
-  font-family: OpenSans;
-  font-size: 25px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #3a434d;
-}
-.Lorem-ipsum-sit-amet {
-  width: auto;
-  height: auto;
-  font-family: PlayfairDisplay;
-  font-size: 40px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #3a434d;
-}
+
 .Bitmap {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   object-fit: contain;
-}
-.Path-2 {
-  width: 170px;
-  height: 1px;
-  border: solid 2px #00b9d1;
 }
 
 .Contact-info {
@@ -204,36 +177,13 @@
     left: 20px;
 }
 
-.Contact {
-  width: 94px;
-  height: 34px;
-  font-family: OpenSans;
-  font-size: 25px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #3a434d;
-}
 .Group-275 {
   width: inherit;
   height: inherit;
   object-fit: contain;
 
 }
-.Get-in-touch-Lorem {
-  width: auto;
-  height: auto;
-  font-family: PlayfairDisplay;
-  font-size: 40px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #3a434d;
-}
+
 .Email-exampledomai {
   width: inherit;
   height: auto;
@@ -260,4 +210,39 @@
   display: inline;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.navbar{
+  position: absolute;
+  top: 1%;
+  right: : 1%;
+  margin-top: 2%;
+  display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.header-block{
+  display: block;
 }
