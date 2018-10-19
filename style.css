@@ -183,19 +183,6 @@
   object-fit: contain;
 
 }
-
-.Email-exampledomai {
-  width: inherit;
-  height: auto;
-  font-family: OpenSans;
-  font-size: 18px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.22;
-  letter-spacing: normal;
-  color: #7e888b;
-}
 .contact-links {
   width: auto;
   height: auto;
