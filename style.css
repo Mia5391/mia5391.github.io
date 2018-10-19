@@ -1,13 +1,46 @@
 .HOME {
-  width: 1440px;
-  height: 3561px;
+  width: 100%;
+  height: auto;
   background-color: #ffffff;
+  text-align: center;
 }
 .cover-background {
-  width: 1440px;
-  height: 680px;
+  width: inherit;
+  height: auto;
   object-fit: contain;
 }
+.content-blocks {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.column {
+  float:left;
+  width: 50%;
+}
+
+.row {
+    width: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.Rectangle {
+  width: auto;
+  height: auto;
+  background-color: #faf9fe;
+}
+
 .Global-Perspective-f {
   width: 494px;
   height: 130px;
@@ -69,9 +102,10 @@
   color: #ffffff;
 }
 .img-mia {
-  width: 753px;
-  height: 864px;
+  width: inherit;
+  height: auto;
   object-fit: contain;
+  text-align: left;
 }
 .bg-photo-mia {
   width: 555px;
@@ -95,8 +129,8 @@
   color: #3a434d;
 }
 .Im-Ma-lorem-ipsum {
-  width: 570px;
-  height: 106px;
+  width: auto;
+  height: auto;
   font-family: PlayfairDisplay;
   font-size: 40px;
   font-weight: bold;
@@ -107,8 +141,8 @@
   color: #3a434d;
 }
 .It-is-a-long-establi {
-  width: 570px;
-  height: 90px;
+  width: auto;
+  height: auto;
   font-family: OpenSans;
   font-size: 18px;
   font-weight: normal;
@@ -136,8 +170,8 @@
   color: #3a434d;
 }
 .Lorem-ipsum-sit-amet {
-  width: 570px;
-  height: 106px;
+  width: auto;
+  height: auto;
   font-family: PlayfairDisplay;
   font-size: 40px;
   font-weight: bold;
@@ -148,8 +182,8 @@
   color: #3a434d;
 }
 .Bitmap {
-  width: 370px;
-  height: 371px;
+  width: 100px;
+  height: 100px;
   object-fit: contain;
 }
 .Path-2 {
@@ -157,6 +191,19 @@
   height: 1px;
   border: solid 2px #00b9d1;
 }
+
+.Contact-info {
+    position: relative;
+    width: inherit;
+}
+
+/* Bottom right text */
+.Contact-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
 .Contact {
   width: 94px;
   height: 34px;
@@ -170,14 +217,14 @@
   color: #3a434d;
 }
 .Group-275 {
-  width: 1440px;
-  height: 631px;
+  width: inherit;
+  height: inherit;
   object-fit: contain;
 
 }
 .Get-in-touch-Lorem {
-  width: 570px;
-  height: 106px;
+  width: auto;
+  height: auto;
   font-family: PlayfairDisplay;
   font-size: 40px;
   font-weight: bold;
@@ -188,8 +235,8 @@
   color: #3a434d;
 }
 .Email-exampledomai {
-  width: 570px;
-  height: 80px;
+  width: inherit;
+  height: auto;
   font-family: OpenSans;
   font-size: 18px;
   font-weight: bold;
@@ -199,9 +246,9 @@
   letter-spacing: normal;
   color: #7e888b;
 }
-.LinkedIn {
-  width: 79px;
-  height: 24px;
+.contact-links {
+  width: auto;
+  height: auto;
   font-family: OpenSans;
   font-size: 18px;
   font-weight: bold;
@@ -210,16 +257,7 @@
   line-height: normal;
   letter-spacing: normal;
   color: #006ba3;
-}
-.GitHub {
-  width: 64px;
-  height: 24px;
-  font-family: OpenSans;
-  font-size: 18px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #474747;
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px;
 }
