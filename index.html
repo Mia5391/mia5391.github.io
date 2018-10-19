@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Maria Krasteva Dev Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="app.js" charset="utf-8"></script>
+
   </head>
   <body>
     <!-- png -->
@@ -26,7 +27,7 @@
             </ul>
           </div>
         </div>
-        <div class="Global-Perspective-f">
+        <div class="Global-Perspective-f" data-aos="fade-up">
           Global perspective for a local impact
         </div>
       </div>
@@ -37,14 +38,14 @@
         </div>
         <div class="column">
           <div >
-            <div class="Path-2"></div>
+            <div class="Path-2"data-aos="fade-right"></div>
             <a name="About-me"></a>
             <div class="Section-title">
             </div>
-            <div class="Section-text">
+            <div class="Section-text" data-aos="fade-up">
               Hi, I'm Maria!
             </div>
-            <div class="It-is-a-long-establi">
+            <div class="It-is-a-long-establi" data-aos="fade-up">
               Front-end developer, traveler and constant learner.
               <br>
               Having lived on 3 continents and worked in a range of industries, I understand my clients' needs and implement their vision through cutting edge technology.
@@ -56,8 +57,8 @@
         </div>
       </div>
       <div class="Rectangle">
-        <div class="content-blocks">
-          <div class="Path-2"></div>
+        <div class="content-blocks"data-aos="fade-up">
+          <div class="Path-2" data-aos="fade-right"></div>
           <a name="Portfolio"></a>
           <div class="Section-title">
 
@@ -66,7 +67,7 @@
             Some of my best work:
           </div>
           <a href="https://github.com/Mia5391/scl-2018-01-ProyectoFinalCore"target="_blank"><img src="./portfolio-assets/regLogo.png"
-               class="Bitmap">
+               class="Bitmap" >
           <a href="https://github.com/Mia5391/bipExercise"target="_blank"><img src="./portfolio-assets/bipLogo.png"
                class="Bitmap">
           <a href="https://github.com/Mia5391/foundApp"target="_blank"><img src="./portfolio-assets/foundLogo.png"
@@ -74,14 +75,10 @@
         </div>
       </div>
 
-      <div class="Contact-info" background-image="./portfolio-assets/group-275.png" >
-
+      <div class="Contact-info">
         <div class="Contact-text">
-          <div class="Path-2"></div>
+          <div class="Path-2" data-aos="fade-right"></div>
           <a name="Contact"></a>
-          <div class="Section-title"> 
-
-          </div>
           <div class="Section-text">
             Interested? Get in touch!
           </div>
@@ -96,6 +93,10 @@
 
 
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
 
   </body>
 </html>
