@@ -6,24 +6,29 @@
     <title>Maria Krasteva Dev Portfolio</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
     <!-- png -->
     <div class="HOME">
+
       <div class="header">
         <img src="./portfolio-assets/cover-background.png"
-             class="cover-background">
+             class="extended-img img-header-big">
+        <img src="./portfolio-assets/cover-background-mobile.png"
+             class="extended-img img-header-mobile">
         <div class="header-block">
           <div class="Ma-Krasteva">
             Maria Krasteva
           </div>
-          <div class="navbar">
-            <ul>
-              <li><a class="active" href="#home">Home</a></li>
-              <li><a href="#About-me">About me</a></li>
-              <li><a href="#Portfolio">Portfolio</a></li>
-              <li><a href="#Contact">Contact</a></li>
+          <div class="nav-bar">
+            <ul class="nav-menu">
+              <li class="nav-items"><a class="active" href="#home">Home</a></li>
+              <li class="nav-items"><a href="#About-me">About me</a></li>
+              <li class="nav-items"><a href="#Portfolio">Portfolio</a></li>
+              <li class="nav-items"><a href="#Contact">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -31,67 +36,87 @@
           Global perspective for a local impact
         </div>
       </div>
+
       <div class="row">
-        <div class="column">
-          <img src="./portfolio-assets/img-mia.png"
-               class="img-mia">
+        <a name="About-me"></a>
+        <div class="col-sm-6">
+          <img src="./portfolio-assets/img-mia-responsive.png"
+               class="img-square">
         </div>
-        <div class="column">
-          <div >
-            <div class="Path-2"data-aos="fade-right"></div>
-            <a name="About-me"></a>
-            <div class="Section-title">
-            </div>
+        <div class="col-sm-6">
+          <div class="Path-2" data-aos="fade-right"></div>
+          <div class="Section-text" data-aos="fade-up">
+            Hi, I'm Maria!
+          </div>
+          <div class="Long-text" data-aos="fade-up">
+            Front-end developer, traveler and constant learner.
+            <br>
+            Having lived on 3 continents and worked in a range of industries, I understand my clients' needs and implement their vision through cutting edge technology.
+            I've used everything from JavaScript and React to Bootstrap and Firebase to give my clients products they can be proud of.
+          </div>
+        </div>
+      </div>
+
+      <div class="Rectangle ">
+        <a name="Portfolio"></a>
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="Path-2 Section-header-margin" data-aos="fade-right"></div>
             <div class="Section-text" data-aos="fade-up">
-              Hi, I'm Maria!
-            </div>
-            <div class="It-is-a-long-establi" data-aos="fade-up">
-              Front-end developer, traveler and constant learner.
-              <br>
-              Having lived on 3 continents and worked in a range of industries, I understand my clients' needs and implement their vision through cutting edge technology.
-              I've used everything from JavaScript and React to Bootstrap and Firebase to give my clients products they can be proud of.
-
+              Some of my best work
             </div>
           </div>
-
         </div>
-      </div>
-      <div class="Rectangle">
-        <div class="content-blocks"data-aos="fade-up">
-          <div class="Path-2" data-aos="fade-right"></div>
-          <a name="Portfolio"></a>
-          <div class="Section-title">
-
+        <div class="row">
+          <div class="container col-sm-4">
+            <img class="bitmap image" src="./portfolio-assets/regLogo.png">
+            <a href="https://github.com/Mia5391/scl-2018-01-ProyectoFinalCore"target="_blank">
+              <div class="overlay">
+                <div class="text-overlay">Proyecto final Core: descripción</div>
+              </div>
+            </a>
           </div>
-          <div class="Section-text">
-            Some of my best work:
+          <div class="container col-sm-4">
+            <img class="bitmap image" src="./portfolio-assets/bipLogo.png">
+            <a href="https://github.com/Mia5391/bipExercise" target="_blank">
+              <div class="overlay">
+                <div class="text-overlay">Bip Exercise</div>
+              </div>
+            </a>
           </div>
-          <a href="https://github.com/Mia5391/scl-2018-01-ProyectoFinalCore"target="_blank"><img src="./portfolio-assets/regLogo.png"
-               class="Bitmap" >
-          <a href="https://github.com/Mia5391/bipExercise"target="_blank"><img src="./portfolio-assets/bipLogo.png"
-               class="Bitmap">
-          <a href="https://github.com/Mia5391/foundApp"target="_blank"><img src="./portfolio-assets/foundLogo.png"
-               class="Bitmap">
-        </div>
+          <div class="container col-sm-4">
+            <img class="bitmap image" src="./portfolio-assets/foundLogo.png">
+            <a href="https://github.com/Mia5391/foundApp" target="_blank">
+              <div class="overlay">
+                <div class="text-overlay">Found App</div>
+              </div>
+            </a>
+          </div>
+        </div>     
       </div>
 
-      <div class="Contact-info">
-        <div class="Contact-text">
-          <div class="Path-2" data-aos="fade-right"></div>
-          <a name="Contact"></a>
+      <div class="footer">
+        <a name="Contact"></a>
+        <img src="./portfolio-assets/footer.png" style="width:100%;">
+        <div class="footer-top-left">
+
+          <div class="Path-2 Section-title-margin" data-aos="fade-right"></div>
           <div class="Section-text">
             Interested? Get in touch!
           </div>
-          <div class="contact-links">
-            <a href="https://github.com/Mia5391"target="_blank">Github</a>
-          </div>
-          <div class="contact-links">
-            <a href="https://www.linkedin.com/in/maria-k-krasteva"target="_blank">LinkedIn</a>
+          <div class="blocks">
+            <div class="contact-link">
+              <a href="mailto:mariakrasteva5391@gmail.com" target="_blank">E-mail</a>
+            </div>
+            <div class="contact-link">
+              <a href="https://github.com/Mia5391"target="_blank">Github</a>
+            </div>
+            <div class="contact-link">
+              <a href="https://www.linkedin.com/in/maria-k-krasteva"target="_blank">LinkedIn</a>
+            </div>
           </div>
         </div>
       </div>
-
-
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
     <script>
